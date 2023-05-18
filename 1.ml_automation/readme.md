@@ -3,7 +3,7 @@
 В папке проекта устанавливаем окружение. 
 ```bash
 pip3.9 install virtualenv
-python -m venv env
+python3.9 -m venv env
 source env/bin/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
