@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ## 3. Последовательный запуск конвеерных скриптов
 
 ```bash
-sh pieline.sh
+sh pipeline.sh
 ```
 
 
