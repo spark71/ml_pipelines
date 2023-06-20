@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "aml"
+version = "0.1.0"
+description = ""
+authors = ["spark71 <noxdrummer@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+pandas = "^2.0.2"
+sklearn = "^0.0.post5"
+scikit-learn = "^1.2.2"
+ipython = "^8.14.0"
+
+[tool.poetry.scripts]
+create_data = "create_data"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
